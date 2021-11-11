@@ -1,0 +1,46 @@
+.list-div{
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    h2{
+        margin:5px;
+    }
+
+    .avatar-div{
+        text-align: center;
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+
+    }
+
+    .list-inner-div{
+        border:2px solid rgb(66, 66, 66);
+        border-radius: 10px;
+        padding:10px;
+        margin:10px;
+    }
+
+}
+
+@media (max-width:990px){
+    .list-div{
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    
+        .list-inner-div{
+            border:2px solid rgb(66, 66, 66);
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+        }
+    
+    }
+}
+
